@@ -7,6 +7,8 @@ PredatorAbstract[] huntable={
 };
         for(PredatorAbstract huntables:huntable){
             huntables.hunt();
+            System.out.println(huntables.age);
+            System.out.println(huntables.name);
         }
 
     }
